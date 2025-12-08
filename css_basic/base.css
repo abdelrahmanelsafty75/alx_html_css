@@ -63,6 +63,12 @@ h1, h2, h3, h4, h5, h6, header {
 	font-family: 'Yeseva One', sans-serif;
 }
 article {
+     flex: 2;
+    overflow-y: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 1.6;
 }
 header {
 	border-bottom: 1px solid rgb(221,221,221);
