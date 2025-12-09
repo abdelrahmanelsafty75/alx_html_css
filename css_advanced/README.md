@@ -1,4 +1,4 @@
-# 🏡 Project Homepage: *Insert Project Name Here*
+# 🏡 Project Homepage: *SmileSchool*
 
 ## 📋 Overview
 This repository contains the front-end source code for the main marketing or informational homepage of the project.  
