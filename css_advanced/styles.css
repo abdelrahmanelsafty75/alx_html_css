@@ -300,3 +300,36 @@ h1{
   margin-top: 10px;
 }
 /*Fourth section end (Free Membership) */
+.faq-section{
+  margin-top: 100px;
+  width: 100%;
+}
+.faq-section h2{
+  font-size: 60px;
+  line-height: 100%;
+  color: #071629;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 90px;
+}
+.question-grid{
+  display: grid;
+  grid-template-columns: 350px 350px;
+  justify-content: center;
+  column-gap: 160px;
+}
+.question{
+  font-size: 16px;
+  line-height: 100%;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: #071629;
+}
+.answer{
+  font-size: 14px;
+  line-height: 24px;
+  color: #07162980;
+  font-weight: 400;
+  margin-bottom: 70px;
+}
+/* Fifth section end (FAQ) */
