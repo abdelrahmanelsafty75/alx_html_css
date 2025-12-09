@@ -29,16 +29,4 @@ This project is built using foundational web technologies:
 - **CSS3** – Styling, layout, responsiveness  
 - **JavaScript** – Interactivity and dynamic elements (as needed)
 
----
 
-## 🚀 Getting Started
-
-### **Prerequisites**
-- A modern web browser (Chrome, Firefox, Edge, Safari)
-- A text editor (VS Code recommended)
-
-### **Installation**
-Clone the repository:
-```bash
-git clone [repository-url-here]
-cd [repository-folder-name]
