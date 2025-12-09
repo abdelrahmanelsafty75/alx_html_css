@@ -258,3 +258,45 @@ h1{
   font-weight: 700;
 }
 /* third section end (Videos) */
+.free-membership-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+  background-color: #071629;
+  height: 502px;
+}
+.free-membership-section h2{
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 100%;
+  color: #fff;
+}
+.membership-flex-container{
+  display: flex;
+  gap: 130px;
+  padding-top: 60px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.membership-col{
+  width: 257px;
+  height: 153px;
+  text-align: center;
+}
+.membership-col h3{
+  font-size: 18px;
+  line-height: 26px;
+  color: #fff;
+  font-weight: 700;
+}
+.membership-col p{
+  font-size: 14px;
+  line-height: 26px;
+  color: #fff;
+  font-weight: 400;
+  margin-top: 10px;
+}
+/*Fourth section end (Free Membership) */
