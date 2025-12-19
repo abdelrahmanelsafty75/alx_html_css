@@ -1,0 +1,118 @@
+:root {
+    --text-color: #FFFFFF; 
+    --accent-color: #FF6565; 
+    --bg-dark: #071629; 
+    --font-family-base: 'Source Sans Pro', sans-serif;
+    --font-family-title: 'Spin Cycle OT', sans-serif; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: var(--font-family-base);
+    color: var(--text-color);
+    background-color: var(--bg-dark);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto; 
+    padding: 0 20px; 
+    width: 100%;
+}
+
+.header {
+    background-image: url('images/headphones_hero_1.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 800px; 
+    position: relative;
+    padding-top: 30px;
+}
+
+.navbar {
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 20px; 
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--text-color);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: var(--accent-color);
+}
+
+/* Hero Content */
+.hero-content {
+    text-align: center;
+    max-width: 650px;
+    margin: 0 auto;
+}
+.hero-content h1 {
+    font-family: var(--font-family-title);
+    font-weight: bold;
+    font-size: 32px;
+    margin: 0 auto;
+}
+.hero-content p {
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.cta-button {
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: opacity 0.3s;
+    margin-bottom: 40px;
+}
+.cta-button:hover {
+    opacity: 0.9;   
+}
+
+.description {
+    font-size: 14px;
+    font-weight: normal !important;
+    line-height: 22px;
+}
+
+@media (max-width: 480px) {
+    .nav-links {
+        display: none; 
+    }
+
+    .logo {
+        margin: 0 auto; 
+    }
+
+    .hero-content h1 {
+        font-size: 24px;
+    }
+}
