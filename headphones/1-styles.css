@@ -195,4 +195,10 @@ body {
     font-size: 80px;
     color: var(--accent-color);
 }
+@media (max-width: 480px) {
+    .item {
+        flex-basis: 100%; 
+        margin-bottom: 30px;
+    }
+}
 
