@@ -191,7 +191,7 @@ body {
     font-size: 14px;
     line-height: 1.6;
 }
-[class^="holberton_school-icon-"] {
+[class^="holberton_school-icon--"] {
     font-size: 80px;
     color: var(--accent-color);
 }
