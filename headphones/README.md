@@ -20,11 +20,18 @@ The final result should match the provided designer file as closely as possible,
 ## 📂 Project Structure
 
 ```
-alx_html_css/
-└── headphones/
-    ├── index.html      # Main HTML file
-    ├── styles.css      # CSS styling
-    └── README.md       # Documentation
+headphones/
+├── 0-index.html, 0-styles.css    # Task 1: Header/Hero
+├── 1-index.html, 1-styles.css    # Task 2: What we do
+├── 2-index.html, 2-styles.css    # Task 3: Our results
+├── 3-index.html, 3-styles.css    # Task 4: Contact form
+├── 4-index.html, 4-styles.css    # Task 5: Footer (Complete)
+├── 6-index.html, 6-styles.css    # Task 6: CSS pentagons
+├── 7-index.html, 7-styles.css    # Task 7: Animations
+├── 8-index.html, 8-styles.css, 8-script.js  # Task 8: Hamburger menu
+├── images/                        # Assets
+├── fonts/                         # Custom icons
+└── README.md
 ```
 
 ---
@@ -67,6 +74,7 @@ alx_html_css/
   - Create 3–4 service blocks with icon, title, and description.
   - Keep styles generic for reuse in future sections.
 
+- **...**
 ---
 
 ## 🎨 Styling Guidelines
@@ -145,18 +153,6 @@ git push origin main
 ```
 Then enable Pages in repository settings.
 
----
-
-## ✅ Final Checklist
-
-- [ ] Matches Figma design layout.
-- [ ] Fully responsive on all devices.
-- [ ] No external CSS or JS used.
-- [ ] Fonts match specifications.
-- [ ] All hover and active styles implemented.
-- [ ] Semantic HTML structure.
-
----
 
 ---
 
