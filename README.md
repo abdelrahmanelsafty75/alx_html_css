@@ -8,6 +8,7 @@ Each directory represents a specific set of tasks or a standalone project focusi
 
 
 ## 📁 Project Structure
+```
 alx_html_css/
 ├── .vscode/              # VS Code configuration
 ├── css_basic/            # Basic CSS project
@@ -41,7 +42,7 @@ alx_html_css/
 │   ├── fonts/            # Custom fonts
 │   └── README.md
 └── README.md             # This file
-
+```
 
 
 ## 🛠️ Technologies Used
